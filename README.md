@@ -11,3 +11,7 @@ That should open it on the browser.
 ------------------------------
 
 Check some of my projects made using Vue/React JS
+
+To serve locally:
+  -in terminal, "npm install -g serve"
+  -then "serve -s"
