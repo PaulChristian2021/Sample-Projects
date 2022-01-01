@@ -21,44 +21,44 @@ Or just open the links here:
 
 -Some of these are very basic, but some are projects I'm quite fond of.
   
-Loopstudios page landing
+1 Loopstudios page landing
 https://loopstudiospagelanding.netlify.app/
   
-JS todo app		
+2 JS todo app		
 https://jstodopaul.netlify.app/
 	
-Vue 3 JS todo app		[same]
+3 Vue 3 JS todo app		[same]
 https://vue3todopaul.netlify.app/
 
-JS Rest countries api
+4 JS Rest countries api
 https://jsrestcountriesapi.netlify.app/
 	
-React new Rest countries api     [my version]
+5 React new Rest countries api     [my version]
 https://reactnewrestcountriesapi.netlify.app/
 
-Ping subscribe site
+6 Ping subscribe site
 https://pingsubscribe.netlify.app/
 
-Cx review page
+7 Cx review page
 https://cxreviewpage.netlify.app/
 
-Jeremy's timetrack
+8 Jeremy's timetrack
 https://jeremytimetrack.netlify.app/
 
-Tip calculator
+9 Tip calculator
 https://tipcalcul.netlify.app/
 
-Vue 3 Minimalist notes
+10 Vue 3 Minimalist notes
 https://vue3note.netlify.app/
 
-Mastercraftriser crowdfunding
+11 Mastercraftriser crowdfunding
 https://mastercraftriser.netlify.app/
 
-An article component
+12 An article component
 https://articlecomponent.netlify.app/
 
-Four card feature
+13 Four card feature
 https://fourcardfeat.netlify.app/
 
-"Learn to code" intro with signup form
+14 "Learn to code" intro with signup form
 https://introwithsignup.netlify.app/
