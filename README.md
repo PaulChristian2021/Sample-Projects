@@ -10,4 +10,4 @@ That should open it on the browser.
 
 ------------------------------
 
-My projects made with JS Frameworks(Vue 3/React) are not uploaded yet.
+Check some of my projects made using Vue/React JS
