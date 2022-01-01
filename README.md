@@ -19,46 +19,46 @@ To serve locally:
 *Update*
 Or just open the links here:
 
-	-Some of these are very basic, but some are projects I'm quite fond of.
+-Some of these are very basic, but some are projects I'm quite fond of.
   
-	Loopstudios page landing
-	https://loopstudiospagelanding.netlify.app/
+Loopstudios page landing
+https://loopstudiospagelanding.netlify.app/
   
-  JS todo app		
-	https://jstodopaul.netlify.app/
+JS todo app		
+https://jstodopaul.netlify.app/
 	
-	Vue 3 JS todo app		[same]
-	https://vue3todopaul.netlify.app/
+Vue 3 JS todo app		[same]
+https://vue3todopaul.netlify.app/
+
+JS Rest countries api
+https://jsrestcountriesapi.netlify.app/
 	
-	JS Rest countries api
-	https://jsrestcountriesapi.netlify.app/
-	
-	React new Rest countries api     -my own version
-	https://reactnewrestcountriesapi.netlify.app/
-  
-  Ping subscribe site
-	https://pingsubscribe.netlify.app/
-	
-	Cx review page
-	https://cxreviewpage.netlify.app/
-	
-	Jeremy's timetrack
-	https://jeremytimetrack.netlify.app/
-	
-	Tip calculator
-	https://tipcalcul.netlify.app/
-	
-	Vue 3 Minimalist notes
-	https://vue3note.netlify.app/
-	
-	Mastercraftriser crowdfunding
-	https://mastercraftriser.netlify.app/
-  
-  An article component
-	https://articlecomponent.netlify.app/
-	
-	Four card feature
-	https://fourcardfeat.netlify.app/
-	
-	"Learn to code" intro with signup form
-	https://introwithsignup.netlify.app/
+React new Rest countries api     [my version]
+https://reactnewrestcountriesapi.netlify.app/
+
+Ping subscribe site
+https://pingsubscribe.netlify.app/
+
+Cx review page
+https://cxreviewpage.netlify.app/
+
+Jeremy's timetrack
+https://jeremytimetrack.netlify.app/
+
+Tip calculator
+https://tipcalcul.netlify.app/
+
+Vue 3 Minimalist notes
+https://vue3note.netlify.app/
+
+Mastercraftriser crowdfunding
+https://mastercraftriser.netlify.app/
+
+An article component
+https://articlecomponent.netlify.app/
+
+Four card feature
+https://fourcardfeat.netlify.app/
+
+"Learn to code" intro with signup form
+https://introwithsignup.netlify.app/
