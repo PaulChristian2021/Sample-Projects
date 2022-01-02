@@ -1,5 +1,13 @@
 # PORTFOLIO: **https://paulchristian.netlify.app/**  [under development]
 
+**Greetings, looking for a job or a paid internship. **
+
+Web: Frontend/React/Vue3
+Sample projects: https://paulchristian.netlify.app/
+Github: https://github.com/PaulChristian2021/Sample-Projects
+Email: paulchristianmasayon2020@gmail.com
+Phone: 09294413362
+
 # Sample-Projects
 Folders containing different projects across my web development journey.
 
