@@ -1,0 +1,12 @@
+.error{
+  height: 270px;
+  text-align: center;
+  padding-top: 60px;
+}
+.error p:first-of-type{
+  margin-bottom: 20px;
+}
+.svg{
+  transform: scale(2);
+  margin-bottom: 20px;
+}

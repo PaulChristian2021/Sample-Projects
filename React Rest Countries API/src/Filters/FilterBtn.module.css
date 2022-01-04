@@ -1,0 +1,30 @@
+.btn{
+  width: 80px; height: 40px;
+  /* border-radius: 30px; */
+  border: 1px solid #271d11;
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  background-color: rgba(255, 255, 255, 0);
+  color: #271d11;
+  font-weight: 600;
+  /* margin-right: 15px; */
+}
+.btn:hover{
+  background-color: #271d11;
+  color: white;
+}
+.btn:first-of-type{
+  border-left-width: 2px ;
+}
+.btn:last-of-type{
+  border-right-width: 2px ;
+}
+
+.active{
+  background-color: #271d11;
+  color: white;
+}
+.activeD{
+  color: white;
+  background-color: #c7a882;
+}

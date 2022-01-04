@@ -1,0 +1,25 @@
+#countriesBox{
+  /* min-width: 100%; */
+  width: 95%;
+  height: 270px;
+   /*
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start; */
+  margin: 30px auto;
+  overflow-x: auto;
+}
+
+.cube{
+  width: 75px; height: 45px;
+  margin: 2px;
+  display: inline-block;
+  transition:all .2s;
+}
+.cube:hover{
+  cursor: pointer;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 5px 2px rgba(51, 51, 51, 0.486);
+}

@@ -1,0 +1,13 @@
+.div{
+  height: 270px;
+  
+}
+.spinner{
+  margin: auto;
+  padding-top: 90px;
+  width: 50px;height: 10px;
+}
+.div p{
+  text-align: center;
+  margin-top: 60px;
+}

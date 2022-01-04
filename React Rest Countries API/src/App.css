@@ -1,0 +1,48 @@
+.firstDiv{
+  background-color: hsl(0, 0%, 90%);
+  height: fit-content;
+  min-height: 100vh;
+  max-height: fit-content;
+  /* overflow: hidden; */
+}
+#root{
+  height: auto;
+  /* overflow: hidden; */
+}
+nav, nav button{
+  background-color: white;
+}
+.darkBody, .darkBody *, .darkInput{
+  background-color: #271d11;
+  color: rgba(255, 255, 255, 0.90);
+}
+
+.darkMode, .darkMode *{
+  background-color: #504531;
+  border-color: #271d11;
+  color: rgba(255, 255, 255, 0.90);
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(233, 232, 232, 0.589); 
+  
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(85, 85, 85, 0.295);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(34, 34, 34, 0.479); 
+}
+
+button:hover{
+  cursor: pointer;
+  filter: contrast(1.5);
+}

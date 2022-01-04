@@ -1,0 +1,12 @@
+.form{
+  width: 100%;
+  display: flex;
+}
+.search{
+  width: 90%; max-width: 400px;
+  height: 30px;
+  padding-left: 20px;
+  margin: auto;
+  border:none;
+  outline: none;
+}
