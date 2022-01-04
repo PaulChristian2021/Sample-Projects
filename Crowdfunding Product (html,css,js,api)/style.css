@@ -1,1 +1,557 @@
-*{box-sizing:border-box;scroll-behavior:smooth}body{font-family:"Commissioner",sans-serif;font-size:16px;height:100vh;margin:0}#background{background:url(./images/image-hero-mobile.jpg);background-size:cover;background-repeat:no-repeat;background-position:center;width:100%;height:80vw;max-height:375px}nav{height:70px;display:flex;align-items:center;justify-content:space-between;color:#fff}nav img{height:30%;margin:25px;position:relative;z-index:2}#nav-links{display:none;z-index:4;position:fixed;top:70px;background-color:#fff;color:#000;width:75vw;margin:auto 10vw;height:fit-content}#nav-links a{display:block;color:#000;text-decoration:none;font-size:20px;padding:20px;transition:color .3s}#nav-links a:hover{color:rgb(212,209,209)}#container{background-color:hsl(0,0%,96%);padding-bottom:60px}#bookmarkSection{margin:0 25px;position:relative;top:-69px;padding-bottom:45px;overflow:visible}#brand-logo{position:relative;top:-30px}h1{margin:0 25px}button{border-radius:50px;border:none;background-color:hsl(176,50%,47%);color:#fff}#bookmark{display:flex;height:60px;width:60px;padding:0;align-items:center;justify-content:space-evenly;margin-right:22px}#bookmark:hover{filter:brightness(.9)}#back-this-button{width:200px;margin-left:23px;font-weight:700;font-size:14px}#bookmark img{float:left;position:relative;height:60px;width:60px}#bookmarkText{margin-right:20px;display:none}#statsSection{margin-top:0;position:relative;top:-40px}.stat-box{height:130px;padding:30px;color:hsl(0,0%,48%)}hr{border:none;margin:0 auto;border-bottom:1px solid rgba(187,187,187,.466)}.shortHR{width:80px}#backing-progress{height:10px;background-color:hsl(0,0%,96%);margin:0 25px 40px;border-radius:15px;overflow:hidden}#progress-fill{background-color:hsl(176,50%,47%);height:100%;width:80%}main p,#modals p,p{color:hsl(0,0%,48%);line-height:30px}#modals section>p{margin-top:0}.gray-border h3{margin-bottom:0}p.pledge,#modals p.pledge{color:hsl(176,50%,47%);margin-top:5px}#back-this-project{z-index:5}.green-border{border-color:hsl(176,50%,47%)!important}#modals{position:absolute;top:0;z-index:3;display:none}#success-modal{display:flex;display:none;position:fixed;top:100px;left:0;z-index:6;width:100%;margin:0;justify-content:center}#success-modal div{margin:0 25px;min-height:300px;max-width:500px;text-align:center;padding:25px 5px}#close-this-modals{background:url(./images/icon-close-modal.svg);background-repeat:no-repeat;height:20px;width:20px;margin:10px 5px;float:right}#close-this-modals:hover{cursor:pointer}#overlay{z-index:2;background:linear-gradient(rgba(5,5,5,.692),rgba(51,51,51,.479),rgba(51,51,51,.075))}#successOverlay{z-index:5;background-color:rgba(14,13,13,.651)}.overlays{display:none;position:fixed;height:100vh;width:100%}p,h2,h3{margin:30px 25px}.two-buttons{display:flex;justify-content:space-around}.text-center{text-align:center}.card{border:1px solid hsla(0,29%,53%,0);background-color:#fff;border-radius:10px;margin:25px 25px;overflow:hidden}section.card.gray-border:nth-of-type(1){margin-top:40px}.gray-border{border-color:hsla(0,0%,48%,.301)}.gray-border .data{margin-bottom:0}.data{font-size:28px;font-weight:700;color:#000;margin-bottom:10px;margin-right:8px;display:inline-block}.reward-button,.success-btn{width:150px;height:50px;margin:0 20px 20px;font-weight:700}.radio-h3{display:flex;justify-content:center;flex-direction:row;align-items:center}.radio-container{display:block;position:relative;cursor:pointer}#mahogany{margin-left:25px}.radio-container input{position:absolute;opacity:0;cursor:pointer}.checkmark{display:inline-block;position:relative;height:25px;width:25px;border-radius:50%;border:1px solid hsla(0,0%,48%,.301)}.radio-container:hover input~.checkmark{background-color:#ccc}.radio-container input:checked~.checkmark{background-color:#fff}.checkmark:after{content:"";position:absolute;display:none}.radio-container input:checked~.checkmark:after{display:block}.radio-container .checkmark:after{top:5px;left:4.7px;width:13px;height:13px;border-radius:50%;background:hsl(176,50%,47%)}.radio-h3 h3{font-size:16px}.radio-h3 h3#noreward{margin-bottom:30px}.enter-pledge{border-top:1px solid hsla(0,0%,48%,.301);padding-bottom:25px;display:none}.enter-pledge div{display:flex;justify-content:space-evenly;height:55px}.enter-pledge div{display:flex;justify-content:center}.enter-pledge i{font-style:normal;position:relative;font-weight:500;color:hsla(0,0%,48%,.301);top:16px;left:-82px}.enter-pledge input{border-color:hsla(0,0%,48%,.301);width:100px;border-radius:60px;font-size:16px;font-weight:700;padding-left:35px;outline-color:hsl(176,72%,28%)}.enter-pledge button.continue{width:120px;font-weight:700;font-size:14.5px;border-radius:60px}.nostock{opacity:.5}button:disabled,input:disabled{background-color:hsla(0,0%,48%,.301)}button:hover{cursor:pointer;background-color:hsl(176,72%,28%)}button:disabled:hover,input:disabled:hover{cursor:not-allowed;background-color:hsla(0,0%,48%,.301);border-color:hsl(0,0%,48%)!important}#menu{cursor:pointer}.option input:hover{border-color:hsl(176,72%,28%)}@media (min-width:670px){#bookmark{display:block;width:190px;color:hsl(0,0%,48%);background-color:hsl(0,6%,93%)}#bookmarkText{display:block;margin:20px;font-size:14px;font-weight:700}.enter-pledge{display:flex}}@media (min-width:1010px){#menu{display:none}#nav-links{display:flex!important;position:relative;top:0;background:none;width:300px;height:fit-content}#nav-links a{display:block;color:#fff;text-decoration:none;font-size:14px;font-weight:700;padding:20px}#background{background:url(./images/image-hero-desktop.jpg);background-position:center;max-height:375px}#container>.card{max-width:700px;margin:auto}#bookmark{display:block;width:190px;color:hsl(0,0%,48%);background-color:hsl(0,6%,93%)}#bookmarkText{display:block;margin:20px;font-size:14px;font-weight:700}#statsSection div{display:flex;justify-content:space-around}.stat-box{flex-direction:column;text-align:left;height:50px;margin:40px auto}.stat-box:nth-of-type(2){border-left:1px solid hsla(0,0%,48%,.301);border-right:1px solid hsla(0,0%,48%,.301)}.shortHR{display:none}.data{margin-bottom:-10px}#backing-progress{display:flex;justify-content:flex-start!important;width:500px;margin:auto auto 40px}#progress-fill{width:80%}article{padding:10px 20px 0}.gray-border{padding-left:10px}main .gray-border .pledge{float:right;position:relative;top:-30px;right:5px;margin-bottom:0}.reward-button{float:right;position:relative;top:-80px;right:10px}#modals{width:100%;display:none}#back-this-project{max-width:800px;margin:150px auto}.radio-h3{justify-content:flex-start}.radio-h3 div{display:flex;flex-direction:row;margin:10px 20px}#modals,#modals h3{font-size:18px}#modals .pledge{display:flex;position:relative;top:23px;left:-55px;font-weight:600}.option p:nth-of-type(1){margin:0 40px 40px 70px}.option p:nth-of-type(2){float:right;position:relative;bottom:190px;right:10px}#bug1{bottom:160px}#bug2{margin-top:20px}#backingNeededNum{margin-right:7px}.radio-container{top:5px;left:15px}.enter-pledge{position:relative;left:-13px;justify-content:space-between;width:102%;padding-bottom:0}.enter-pledge p{margin:auto!important;margin-left:25px!important}.enter-pledge div{margin:25px 30px}.amount{margin-right:10px;width:110px!important;padding-left:45px!important}.amount~i{left:-95px}}.displayFlex{display:flex!important}.displayNone{display:none!important}.displayBlock{display:block!important}
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Commissioner", sans-serif;
+  font-size: 16px;
+  height: 100vh;
+  margin: 0;
+}
+#background {
+  background: url(./images/image-hero-mobile.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 80vw;
+  max-height: 375px;
+}
+nav {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+nav img {
+  height: 30%;
+  margin: 25px;
+  position: relative;
+  z-index: 2;
+}
+#nav-links {
+  display: none;
+  z-index: 4;
+  position: fixed;
+  top: 70px;
+  background-color: #fff;
+  color: #000;
+  width: 75vw;
+  margin: auto 10vw;
+  height: fit-content;
+}
+#nav-links a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px;
+  transition: color 0.3s;
+}
+#nav-links a:hover {
+  color: rgb(212, 209, 209);
+}
+#container {
+  background-color: hsl(0, 0%, 96%);
+  padding-bottom: 60px;
+}
+#bookmarkSection {
+  margin: 0 25px;
+  position: relative;
+  top: -69px;
+  padding-bottom: 45px;
+  overflow: visible;
+}
+#brand-logo {
+  position: relative;
+  top: -30px;
+}
+h1 {
+  margin: 0 25px;
+}
+button {
+  border-radius: 50px;
+  border: none;
+  background-color: hsl(176, 50%, 47%);
+  color: #fff;
+}
+#bookmark {
+  display: flex;
+  height: 60px;
+  width: 60px;
+  padding: 0;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 22px;
+}
+#bookmark:hover {
+  filter: brightness(0.9);
+}
+#back-this-button {
+  width: 200px;
+  margin-left: 23px;
+  font-weight: 700;
+  font-size: 14px;
+}
+#bookmark img {
+  float: left;
+  position: relative;
+  height: 60px;
+  width: 60px;
+}
+#bookmarkText {
+  margin-right: 20px;
+  display: none;
+}
+#statsSection {
+  margin-top: 0;
+  position: relative;
+  top: -40px;
+}
+.stat-box {
+  height: 130px;
+  padding: 30px;
+  color: hsl(0, 0%, 48%);
+}
+hr {
+  border: none;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(187, 187, 187, 0.466);
+}
+.shortHR {
+  width: 80px;
+}
+#backing-progress {
+  height: 10px;
+  background-color: hsl(0, 0%, 96%);
+  margin: 0 25px 40px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+#progress-fill {
+  background-color: hsl(176, 50%, 47%);
+  height: 100%;
+  width: 80%;
+}
+main p,
+#modals p,
+p {
+  color: hsl(0, 0%, 48%);
+  line-height: 30px;
+}
+#modals section > p {
+  margin-top: 0;
+}
+.gray-border h3 {
+  margin-bottom: 0;
+}
+p.pledge,
+#modals p.pledge {
+  color: hsl(176, 50%, 47%);
+  margin-top: 5px;
+}
+#back-this-project {
+  z-index: 5;
+}
+.green-border {
+  border-color: hsl(176, 50%, 47%) !important;
+}
+#modals {
+  position: absolute;
+  top: 0;
+  z-index: 3;
+  display: none;
+}
+#success-modal {
+  display: flex;
+  display: none;
+  position: fixed;
+  top: 100px;
+  left: 0;
+  z-index: 6;
+  width: 100%;
+  margin: 0;
+  justify-content: center;
+}
+#success-modal div {
+  margin: 0 25px;
+  min-height: 300px;
+  max-width: 500px;
+  text-align: center;
+  padding: 25px 5px;
+}
+#close-this-modals {
+  background: url(./images/icon-close-modal.svg);
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 20px;
+  margin: 10px 5px;
+  float: right;
+}
+#close-this-modals:hover {
+  cursor: pointer;
+}
+#overlay {
+  z-index: 2;
+  background: linear-gradient(
+    rgba(5, 5, 5, 0.692),
+    rgba(51, 51, 51, 0.479),
+    rgba(51, 51, 51, 0.075)
+  );
+}
+#successOverlay {
+  z-index: 5;
+  background-color: rgba(14, 13, 13, 0.651);
+}
+.overlays {
+  display: none;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+}
+p,
+h2,
+h3 {
+  margin: 30px 25px;
+}
+.two-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+.text-center {
+  text-align: center;
+}
+.card {
+  border: 1px solid hsla(0, 29%, 53%, 0);
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 25px 25px;
+  overflow: hidden;
+}
+section.card.gray-border:nth-of-type(1) {
+  margin-top: 40px;
+}
+.gray-border {
+  border-color: hsla(0, 0%, 48%, 0.301);
+}
+.gray-border .data {
+  margin-bottom: 0;
+}
+.data {
+  font-size: 28px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 10px;
+  margin-right: 8px;
+  display: inline-block;
+}
+.reward-button,
+.success-btn {
+  width: 150px;
+  height: 50px;
+  margin: 0 20px 20px;
+  font-weight: 700;
+}
+.radio-h3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.radio-container {
+  display: block;
+  position: relative;
+  cursor: pointer;
+}
+#mahogany {
+  margin-left: 25px;
+}
+.radio-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.checkmark {
+  display: inline-block;
+  position: relative;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: 1px solid hsla(0, 0%, 48%, 0.301);
+}
+.radio-container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+.radio-container input:checked ~ .checkmark {
+  background-color: #fff;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.radio-container input:checked ~ .checkmark:after {
+  display: block;
+}
+.radio-container .checkmark:after {
+  top: 5px;
+  left: 4.7px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: hsl(176, 50%, 47%);
+}
+.radio-h3 h3 {
+  font-size: 16px;
+}
+.radio-h3 h3#noreward {
+  margin-bottom: 30px;
+}
+.enter-pledge {
+  border-top: 1px solid hsla(0, 0%, 48%, 0.301);
+  padding-bottom: 25px;
+  display: none;
+}
+.enter-pledge div {
+  display: flex;
+  justify-content: space-evenly;
+  height: 55px;
+}
+.enter-pledge div {
+  display: flex;
+  justify-content: center;
+}
+.enter-pledge i {
+  font-style: normal;
+  position: relative;
+  font-weight: 500;
+  color: hsla(0, 0%, 48%, 0.301);
+  top: 16px;
+  left: -82px;
+}
+.enter-pledge input {
+  border-color: hsla(0, 0%, 48%, 0.301);
+  width: 100px;
+  border-radius: 60px;
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 35px;
+  outline-color: hsl(176, 72%, 28%);
+}
+.enter-pledge button.continue {
+  width: 120px;
+  font-weight: 700;
+  font-size: 14.5px;
+  border-radius: 60px;
+}
+.nostock {
+  opacity: 0.5;
+}
+button:disabled,
+input:disabled {
+  background-color: hsla(0, 0%, 48%, 0.301);
+}
+button:hover {
+  cursor: pointer;
+  background-color: hsl(176, 72%, 28%);
+}
+button:disabled:hover,
+input:disabled:hover {
+  cursor: not-allowed;
+  background-color: hsla(0, 0%, 48%, 0.301);
+  border-color: hsl(0, 0%, 48%) !important;
+}
+#menu {
+  cursor: pointer;
+}
+.option input:hover {
+  border-color: hsl(176, 72%, 28%);
+}
+@media (min-width: 670px) {
+  #bookmark {
+    display: block;
+    width: 190px;
+    color: hsl(0, 0%, 48%);
+    background-color: hsl(0, 6%, 93%);
+  }
+  #bookmarkText {
+    display: block;
+    margin: 20px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .enter-pledge {
+    display: flex;
+  }
+}
+@media (min-width: 1010px) {
+  #menu {
+    display: none;
+  }
+  #nav-links {
+    display: flex !important;
+    position: relative;
+    top: 0;
+    background: none;
+    width: 300px;
+    height: fit-content;
+  }
+  #nav-links a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 20px;
+  }
+  #background {
+    background: url(./images/image-hero-desktop.jpg);
+    background-position: center;
+    max-height: 375px;
+  }
+  #container > .card {
+    max-width: 700px;
+    margin: auto;
+  }
+  #bookmark {
+    display: block;
+    width: 190px;
+    color: hsl(0, 0%, 48%);
+    background-color: hsl(0, 6%, 93%);
+  }
+  #bookmarkText {
+    display: block;
+    margin: 20px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  #statsSection div {
+    display: flex;
+    justify-content: space-around;
+  }
+  .stat-box {
+    flex-direction: column;
+    text-align: left;
+    height: 50px;
+    margin: 40px auto;
+  }
+  .stat-box:nth-of-type(2) {
+    border-left: 1px solid hsla(0, 0%, 48%, 0.301);
+    border-right: 1px solid hsla(0, 0%, 48%, 0.301);
+  }
+  .shortHR {
+    display: none;
+  }
+  .data {
+    margin-bottom: -10px;
+  }
+  #backing-progress {
+    display: flex;
+    justify-content: flex-start !important;
+    width: 500px;
+    margin: auto auto 40px;
+  }
+  #progress-fill {
+    width: 80%;
+  }
+  article {
+    padding: 10px 20px 0;
+  }
+  .gray-border {
+    padding-left: 10px;
+  }
+  main .gray-border .pledge {
+    float: right;
+    position: relative;
+    top: -30px;
+    right: 5px;
+    margin-bottom: 0;
+  }
+  .reward-button {
+    float: right;
+    position: relative;
+    top: -80px;
+    right: 10px;
+  }
+  #modals {
+    width: 100%;
+    display: none;
+  }
+  #back-this-project {
+    max-width: 800px;
+    margin: 150px auto;
+  }
+  .radio-h3 {
+    justify-content: flex-start;
+  }
+  .radio-h3 div {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 20px;
+  }
+  #modals,
+  #modals h3 {
+    font-size: 18px;
+  }
+  #modals .pledge {
+    display: flex;
+    position: relative;
+    top: 23px;
+    left: -55px;
+    font-weight: 600;
+  }
+  .option p:nth-of-type(1) {
+    margin: 0 40px 40px 70px;
+  }
+  .option p:nth-of-type(2) {
+    float: right;
+    position: relative;
+    bottom: 190px;
+    right: 10px;
+  }
+  #bug1 {
+    bottom: 160px;
+  }
+  #bug2 {
+    margin-top: 20px;
+  }
+  #backingNeededNum {
+    margin-right: 7px;
+  }
+  .radio-container {
+    top: 5px;
+    left: 15px;
+  }
+  .enter-pledge {
+    position: relative;
+    left: -13px;
+    justify-content: space-between;
+    width: 102%;
+    padding-bottom: 0;
+  }
+  .enter-pledge p {
+    margin: auto !important;
+    margin-left: 25px !important;
+  }
+  .enter-pledge div {
+    margin: 25px 30px;
+  }
+  .amount {
+    margin-right: 10px;
+    width: 110px !important;
+    padding-left: 45px !important;
+  }
+  .amount ~ i {
+    left: -95px;
+  }
+}
+.displayFlex {
+  display: flex !important;
+}
+.displayNone {
+  display: none !important;
+}
+.displayBlock {
+  display: block !important;
+}

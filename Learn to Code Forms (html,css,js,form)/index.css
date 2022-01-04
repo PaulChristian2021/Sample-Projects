@@ -1,1 +1,210 @@
-@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);.attribution{font-size:11px;position:fixed;bottom:0;text-align:center;right:0;background-color:rgba(0,0,0,.61);color:hsl(0,0%,100%);padding:0 2px;width:300px;margin:0;line-height:12px}.attribution a{color:rgb(175,228,144)}.attribution,.attribution a{font-size:11px;font-family:sans-serif}body{height:100vh}.pointer{cursor:pointer}*{font-family:"Poppins",sans-serif;box-sizing:border-box;margin:0;padding:0}body,main,form,header,section{display:flex;justify-content:center;align-items:center;flex-direction:column}body{background-color:hsl(0,100%,74%);font-size:16px;height:auto;background-image:url(./images/bg-intro-mobile.png);background-size:cover;background-repeat:no-repeat}main{margin:20px;color:#fff;margin:45px auto 65px}header{text-align:center;margin-bottom:30px}header p{margin:auto 10px}h1{font-size:24px;margin:20px 20px}.purplebanner{background-color:hsl(248,32%,49%);text-align:center;padding:10px 60px;margin:30px auto}.purplebanner,form{box-shadow:0 8px 0 0 rgba(51,51,51,.274)}form{background-color:#fff;display:flex;flex-direction:column;padding:20px}header,form,.purplebanner{border-radius:10px;width:330px}.purplebanner,input,button{display:block}input,button{border-radius:5px;width:100%;margin:10px auto;padding:15px}input{border:1px solid hsl(246,25%,77%);position:relative;top:-35px}input:focus{outline:1px solid #000}input,input::placeholder{font-weight:600}button{border:none;text-transform:uppercase;background-color:hsl(154,59%,51%);color:#fff;letter-spacing:2px;font-weight:700;box-shadow:0 -5px inset rgba(51,51,51,.274)}button:hover{filter:brightness(1.05)}button:hover,.terms:hover{cursor:pointer}section p{font-size:12px;font-weight:500;line-height:26px;color:hsl(246,25%,77%);text-align:center;margin:auto 18px}.terms{color:hsl(0,100%,74%);font-weight:700}.formdiv{display:inline;width:100%;height:70px;position:relative;top:20px}.invalid{color:hsl(0,100%,74%);border:2px solid hsl(0,100%,74%)}.error{font-size:10px;display:block;color:hsl(0,100%,74%);position:relative;top:-40px;float:right;z-index:3;opacity:0}.erroricon{content:url(./images/icon-error.svg);position:absolute;z-index:4;margin:-85px auto auto 370px;opacity:0}@media (max-width:550px){.erroricon{margin:-85px 0 0 250px}}@media (min-width:550px){header{width:530px;margin-left:10px}form,.purplebanner{width:450px}section{margin-right:10px}}@media (min-width:1020px){body{height:100vh;justify-content:center;background-image:url(./images/bg-intro-desktop.png)}header{text-align:left;margin-right:20px}header p{margin:auto}h1{margin:30px auto;font-size:40px}main{flex-direction:row;margin:auto}}
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+.attribution {
+  font-size: 11px;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.61);
+  color: hsl(0, 0%, 100%);
+  padding: 0 2px;
+  width: 300px;
+  margin: 0;
+  line-height: 12px;
+}
+.attribution a {
+  color: rgb(175, 228, 144);
+}
+.attribution,
+.attribution a {
+  font-size: 11px;
+  font-family: sans-serif;
+}
+body {
+  height: 100vh;
+}
+.pointer {
+  cursor: pointer;
+}
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body,
+main,
+form,
+header,
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body {
+  background-color: hsl(0, 100%, 74%);
+  font-size: 16px;
+  height: auto;
+  background-image: url(./images/bg-intro-mobile.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main {
+  margin: 20px;
+  color: #fff;
+  margin: 45px auto 65px;
+}
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+header p {
+  margin: auto 10px;
+}
+h1 {
+  font-size: 24px;
+  margin: 20px 20px;
+}
+.purplebanner {
+  background-color: hsl(248, 32%, 49%);
+  text-align: center;
+  padding: 10px 60px;
+  margin: 30px auto;
+}
+.purplebanner,
+form {
+  box-shadow: 0 8px 0 0 rgba(51, 51, 51, 0.274);
+}
+form {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+header,
+form,
+.purplebanner {
+  border-radius: 10px;
+  width: 330px;
+}
+.purplebanner,
+input,
+button {
+  display: block;
+}
+input,
+button {
+  border-radius: 5px;
+  width: 100%;
+  margin: 10px auto;
+  padding: 15px;
+}
+input {
+  border: 1px solid hsl(246, 25%, 77%);
+  position: relative;
+  top: -35px;
+}
+input:focus {
+  outline: 1px solid #000;
+}
+input,
+input::placeholder {
+  font-weight: 600;
+}
+button {
+  border: none;
+  text-transform: uppercase;
+  background-color: hsl(154, 59%, 51%);
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 700;
+  box-shadow: 0 -5px inset rgba(51, 51, 51, 0.274);
+}
+button:hover {
+  filter: brightness(1.05);
+}
+button:hover,
+.terms:hover {
+  cursor: pointer;
+}
+section p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 26px;
+  color: hsl(246, 25%, 77%);
+  text-align: center;
+  margin: auto 18px;
+}
+.terms {
+  color: hsl(0, 100%, 74%);
+  font-weight: 700;
+}
+.formdiv {
+  display: inline;
+  width: 100%;
+  height: 70px;
+  position: relative;
+  top: 20px;
+}
+.invalid {
+  color: hsl(0, 100%, 74%);
+  border: 2px solid hsl(0, 100%, 74%);
+}
+.error {
+  font-size: 10px;
+  display: block;
+  color: hsl(0, 100%, 74%);
+  position: relative;
+  top: -40px;
+  float: right;
+  z-index: 3;
+  opacity: 0;
+}
+.erroricon {
+  content: url(./images/icon-error.svg);
+  position: absolute;
+  z-index: 4;
+  margin: -85px auto auto 370px;
+  opacity: 0;
+}
+@media (max-width: 550px) {
+  .erroricon {
+    margin: -85px 0 0 250px;
+  }
+}
+@media (min-width: 550px) {
+  header {
+    width: 530px;
+    margin-left: 10px;
+  }
+  form,
+  .purplebanner {
+    width: 450px;
+  }
+  section {
+    margin-right: 10px;
+  }
+}
+@media (min-width: 1020px) {
+  body {
+    height: 100vh;
+    justify-content: center;
+    background-image: url(./images/bg-intro-desktop.png);
+  }
+  header {
+    text-align: left;
+    margin-right: 20px;
+  }
+  header p {
+    margin: auto;
+  }
+  h1 {
+    margin: 30px auto;
+    font-size: 40px;
+  }
+  main {
+    flex-direction: row;
+    margin: auto;
+  }
+}

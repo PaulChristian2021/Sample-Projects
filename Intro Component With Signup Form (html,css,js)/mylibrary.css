@@ -1,1 +1,15 @@
-*{box-sizing: border-box; margin: 0; padding: 0; --mygray: #3B3E42; --mydark: #25282C; --myverydark: #191C20; --mylightgray: #ECF0F1;}body{height: 100vh;}.pointer{cursor: pointer;}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  --mygray: #3b3e42;
+  --mydark: #25282c;
+  --myverydark: #191c20;
+  --mylightgray: #ecf0f1;
+}
+body {
+  height: 100vh;
+}
+.pointer {
+  cursor: pointer;
+}
