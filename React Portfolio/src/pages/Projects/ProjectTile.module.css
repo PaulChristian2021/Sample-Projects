@@ -1,0 +1,104 @@
+.a {
+  text-decoration: none;
+}
+.li {
+  color: black;
+  height: 230px;
+  width: 250px;
+  background-color: rgb(53, 53, 53);
+  margin: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.badges {
+  transform: translateY(5px);
+  transition: 0.2s ease-out;
+  z-index: 5;
+}
+.badge {
+  margin-right: 3px;
+  color: whitesmoke;
+  padding: 5px;
+}
+.li:hover .badges {
+  transform: translateY(-30px);
+}
+.HTML {
+  background-color: #ce4321;
+}
+.CSS {
+  background-color: #2443bd;
+}
+.JS {
+  background-color: #f7df1e;
+  color: black;
+}
+.API {
+  background-color: #3b546b;
+}
+.Vue3 {
+  background-color: #3fb27f; color: black;
+}
+.React {
+  background-color: #5ed3f3;
+  color: black;
+}
+
+.imgs {
+  display: flex;
+  justify-content: center;
+  transition: transform 1s;
+}
+.imgs img {
+  height: 200px;
+  width: 220px;
+  transition: .3s;
+}
+.dual, .badges, .p {
+  position: relative;
+}
+.dual:first-of-type {
+  z-index: 2;
+  right: -97px;
+  bottom: -10px;
+}
+.dual:last-of-type {
+  z-index: 3;
+  right: 90px;
+  bottom: 15px;
+}
+.p {
+  align-self: flex-end;
+  background-color: whitesmoke;
+  padding: 5px;
+  transform: translateY(-20px);
+  
+  transition: 0.2s ease-out;
+  z-index: 5;
+}
+.li:hover .imgs{
+  transform: scale(1.2);
+}
+.li:hover .imgs img:first-of-type {
+  transform: translateY(-20px)
+}
+.li:hover .imgs img:last-of-type {
+  transform: translateY(20px)
+}
+.li:hover .p{
+  transform: translateY(40px);
+}
+.li:active .imgs{
+  transform: scale(.7);
+}
+.li:active .imgs img:first-of-type {
+  transform: translateY(0px)
+}
+.li:active .imgs img:last-of-type {
+  transform: translateY(0px)
+}
+.p, .badge, .dual:last-of-type{
+  box-shadow: 0 0 8px 3px  rgba(51, 51, 51, 0.466);
+}

@@ -1,0 +1,22 @@
+section.sec{
+  
+  height: auto;
+  min-height: fit-content;
+  user-select: none;
+}
+.sec h2{
+  
+  text-align: center;
+  font-size: 26px;
+  text-transform: uppercase;
+}
+.sec ul{
+  margin: 20px auto auto;
+  width: 90%;
+}
+.sec ul>div{
+  margin: auto;
+  width: 95%;
+  overflow: auto;
+  display: flex;
+}

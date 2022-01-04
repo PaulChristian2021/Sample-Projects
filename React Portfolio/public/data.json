@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Todo App",
+    "tools": ["HTML", "CSS", "JS", "API", "Vue3"],
+    "images": ["./asset/previews/todo.png", "./asset/previews/todo1.png"],
+    "url": "https://vue3todopaul.netlify.app/"
+  },
+  {
+    "name": "Loop Studios",
+    "tools": ["HTML", "CSS", "JS"],
+    "images": [
+      "./asset/previews/loopstudio.png",
+      "./asset/previews/loopstudio1.png"
+    ],
+    "url": "https://loopstudiospagelanding.netlify.app/"
+  },
+  {
+    "name": "Rest Countries",
+    "tools": ["HTML", "CSS", "JS", "API"],
+    "images": [
+      "./asset/previews/countries.png",
+      "./asset/previews/countries1.png"
+    ],
+    "url": "https://jsrestcountriesapi.netlify.app/"
+  },
+  {
+    "name": "Countries Database",
+    "tools": ["HTML", "CSS", "JS", "API", "React"],
+    "images": [
+      "./asset/previews/mycountries.png",
+      "./asset/previews/mycountries1.png"
+    ],
+    "url": "https://reactnewrestcountriesapi.netlify.app/"
+  },
+  {
+    "name": "Cx Reviews Page",
+    "tools": ["HTML", "CSS"],
+    "images": ["./asset/previews/cxreview.png"],
+    "url": "https://cxreviewpage.netlify.app/"
+  },
+  {
+    "name": "Four Card Feature",
+    "tools": ["HTML", "CSS"],
+    "images": ["./asset/previews/fourcard.png"],
+    "url": "https://fourcardfeat.netlify.app/"
+  },
+  
+  {
+    "name": "Mastercraftriser",
+    "tools": ["HTML", "CSS", "JS", "API"],
+    "images": [
+      "./asset/previews/mastercraft.png",
+      "./asset/previews/mastercraft1.png"
+    ],
+    "url": "https://mastercraftriser.netlify.app/"
+  },
+  {
+    "name": "Minimalist Notes",
+    "tools": ["HTML", "CSS", "JS", "Vue3"],
+    "images": ["./asset/previews/minnotes.png"],
+    "url": "https://vue3note.netlify.app/"
+  },
+  
+  {
+    "name": "Ping",
+    "tools": ["HTML", "CSS", "JS"],
+    "images": ["./asset/previews/ping.png"],
+    "url": "https://pingsubscribe.netlify.app/"
+  },
+  {
+    "name": "Coding Signup Page",
+    "tools": ["HTML", "CSS", "JS"],
+    "images": ["./asset/previews/signup.png"],
+    "url": "https://introwithsignup.netlify.app/"
+  },
+  {
+    "name": "Jeremy's Timetrack",
+    "tools": ["HTML", "CSS", "JS"],
+    "images": ["./asset/previews/timetrack.png"],
+    "url": "https://jeremytimetrack.netlify.app/"
+  },
+  {
+    "name": "Tip Calculator",
+    "tools": ["HTML", "CSS", "JS"],
+    "images": ["./asset/previews/tipcalc.png"],
+    "url": "https://tipcalcul.netlify.app/"
+  },
+  {
+    "name": "Todo App",
+    "tools": ["HTML", "CSS", "JS", "API"],
+    "images": ["./asset/previews/todo.png", "./asset/previews/todo1.png"],
+    "url": "https://jstodopaul.netlify.app/"
+  },
+
+  {
+    "name": "Article Component",
+    "tools": ["HTML", "CSS", "JS"],
+    "images": ["./asset/previews/articlecomp.png"],
+    "url": "https://articlecomponent.netlify.app/"
+  }
+  
+]

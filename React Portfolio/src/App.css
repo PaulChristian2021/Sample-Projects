@@ -1,0 +1,10 @@
+.App{
+  background-color: #1b1b1b;
+  min-height: 100vh;
+  color: rgb(241, 232, 232);
+}
+
+.page{
+  min-height: 100vh;
+}
+

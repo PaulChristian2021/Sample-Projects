@@ -1,0 +1,27 @@
+.nav *{
+  color: whitesmoke;
+}
+.nav{
+  position: fixed;
+  top: 50%;
+  left: -128px;
+  transform: rotate(90deg);
+  user-select: none;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.nav a{
+  text-decoration: none;
+  padding: 5px;
+  font-weight: 500;
+  background-color: #1b1b1b;
+}
+.nav a:hover{
+  background-color: whitesmoke;
+  color: #171717;
+  
+}
+.nav a:active{
+  transform: scale(.95);
+}

@@ -1,0 +1,43 @@
+section.sec{
+  margin: 0 50px;
+  position: fixed;
+  bottom: 30px; left: -10px;
+  min-height: 200px;
+  width: 310px; height: 200px;
+  background-color: #2c2c2c;
+  z-index: 20;
+  box-shadow: 0 4px 30px 3px rgba(34, 34, 34, 0.555);
+
+}
+.sec form{
+  height: 100%;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sec form div button,.sec form input, .sec form textarea{
+  background-color: #555555; color: whitesmoke;
+  border: none; padding: 5px;
+}
+.sec form input::placeholder, .sec form textarea::placeholder{color: rgba(245, 245, 245, 0.637);}
+.sec form div{
+  display: flex;
+}
+.sec form div button{
+  background-color:  #222;
+  flex-grow: 2;
+  border: 2px solid #222;
+  transition: .3s ;
+}
+.sec form div button:hover{
+  cursor: pointer;
+  background-color: #333;
+}
+.sec form div button:active{
+  background-color: #777;
+}
+.sec form div button.error{
+  background-color: rgb(185, 60, 60);
+  border-color: rgb(185, 60, 60);
+}
