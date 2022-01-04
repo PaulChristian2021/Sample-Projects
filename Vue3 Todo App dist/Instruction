@@ -1,3 +1,0 @@
-to serve locally:
-  -in terminal, "npm install -g serve"
-  -then "serve -s"
