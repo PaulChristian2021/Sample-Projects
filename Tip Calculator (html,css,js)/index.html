@@ -1,1 +1,76 @@
-<!DOCTYPE html><html lang="en"> <head> <meta charset="UTF-8"/> <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <link rel="shortcut icon" href="./images/universal-tab-logo-32x32.png" type="image/x-icon"/> <title>Frontend Mentor | Tip calculator app</title> <link rel="stylesheet" href="./index.css"/> <link rel="stylesheet" href="./mediaqueries.css"> </head> <body> <header> <img src="./images/logo.svg" alt=""/> </header> <main> <section> <div class="options"> <label for="bill">Bill</label><i class="bill"></i> <input id="bill" type="number" class="noarrows" placeholder="0"/> </div><div class="options"> <div class="label" id="select-tip">Select Tip %</div><div class="tips"> <button class="tip">5%</button> <button class="tip">10%</button> <button class="tip">15%</button> <button class="tip">25%</button> <button class="tip">50%</button> <input id='tip' type="number" class="tip noarrows" placeholder="Custom"/> </div></div><div class="options"> <label for="peoplenumber"> Number of People <span class="invalidPeople">Enter a valid number</span></label> <input id="peoplenumber" type="number" class="noarrows " placeholder="1"/> </div></section> <section> <div> <div class="amounts"> <div class="amount"> Tip Amount <br/><span class="per">/ person</span> </div><span id="tip-amount">$0.00</span> </div><div class="amounts"> <div class="amount"> Total <br/><span class="per">/ person</span> </div><span id="total-amount">$0.00</span> </div></div><button id="reset">Reset</button> </section> </main> <div class="attribution"> Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" >Frontend Mentor</a >. Coded by <a href="#">Paul Christian</a>. </div><script src="./script.js"></script> </body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./images/universal-tab-logo-32x32.png"
+      type="image/x-icon"
+    />
+    <title>Frontend Mentor | Tip calculator app</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./mediaqueries.css" />
+  </head>
+  <body>
+    <header><img src="./images/logo.svg" alt="" /></header>
+    <main>
+      <section>
+        <div class="options">
+          <label for="bill">Bill</label><i class="bill"></i>
+          <input id="bill" type="number" class="noarrows" placeholder="0" />
+        </div>
+        <div class="options">
+          <div class="label" id="select-tip">Select Tip %</div>
+          <div class="tips">
+            <button class="tip">5%</button> <button class="tip">10%</button>
+            <button class="tip">15%</button> <button class="tip">25%</button>
+            <button class="tip">50%</button>
+            <input
+              id="tip"
+              type="number"
+              class="tip noarrows"
+              placeholder="Custom"
+            />
+          </div>
+        </div>
+        <div class="options">
+          <label for="peoplenumber">
+            Number of People
+            <span class="invalidPeople">Enter a valid number</span></label
+          >
+          <input
+            id="peoplenumber"
+            type="number"
+            class="noarrows"
+            placeholder="1"
+          />
+        </div>
+      </section>
+      <section>
+        <div>
+          <div class="amounts">
+            <div class="amount">
+              Tip Amount <br /><span class="per">/ person</span>
+            </div>
+            <span id="tip-amount">$0.00</span>
+          </div>
+          <div class="amounts">
+            <div class="amount">
+              Total <br /><span class="per">/ person</span>
+            </div>
+            <span id="total-amount">$0.00</span>
+          </div>
+        </div>
+        <button id="reset">Reset</button>
+      </section>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Paul Christian</a>.
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
