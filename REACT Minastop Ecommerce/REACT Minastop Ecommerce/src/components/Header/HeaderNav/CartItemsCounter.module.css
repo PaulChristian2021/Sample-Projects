@@ -1,0 +1,10 @@
+.output{
+  position: absolute;
+  margin-left: -5px;
+  margin-top: -5px;
+  background-color: #df6747;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 0 3px ;
+}

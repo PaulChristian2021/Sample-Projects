@@ -1,0 +1,31 @@
+.li {
+  /* width: 100%; */
+  padding: 10px;
+  background-color: white;
+  margin: 10px 10px;
+  cursor: pointer;
+
+  justify-content: space-between;
+
+  
+}
+.li:active, .li div{
+  background-color: #47474d;
+  color: white;
+}
+.li:active div{
+  transform: translateX(100px);
+}
+.li, .li div{
+  display: flex;
+}
+.li div{
+  flex-direction: column;
+  align-items: center;
+  background-color: #989e92;
+  min-width: 60px;
+  transition: .5s;
+}
+.category{
+  
+}

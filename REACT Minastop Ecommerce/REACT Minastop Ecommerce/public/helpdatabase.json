@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "date": "Jan 14, 2022",
+    "title": "[Technical Issues] What should I do if I encounter a problem/error/blank page on Minastop?",
+    "caption": "If you encounter technical issues on the app, such as problem loading pages, payment not processing, inability to add a product to cart, or inability to send messages via Minastop, contact us.",
+    "categories": ["tech", "account"]
+  },
+  {
+    "id": 2,
+    "date": "Jan 16, 2022",
+    "title": "How to properly provide evidence during Return/Refund?",
+    "caption": "Sellers are required to provide evidence(s) to support the return/refund claim. This helps Minastop to properly evaluate the case. The evidence required will depend on the reason selected by the Buyer. Here are the guidelines that will help you to provide strong evidence as a Seller:",
+    "categories": ["rules", "order"]
+  },
+  {
+    "id": 3,
+    "date": "Jan 4, 2022",
+    "title": "[Buyer] How can I request a manual order cancellation for shipped orders?",
+    "caption": "You can request a Manual Order Cancellation from the seller. However, the seller must agree with the request to proceed with the cancellation of your order. ",
+    "categories": ["rules", "order"]
+  },
+  {
+    "id": 4,
+    "date": "Jan 24, 2022",
+    "title": "[My Account] Can I change my username?",
+    "caption": "To change your username via the Shopee app, go to the Me tab >  Select ⚙ icon > My Profile > Username > Enter new username > Save.",
+    "categories": ["tech", "account"]
+  }
+]

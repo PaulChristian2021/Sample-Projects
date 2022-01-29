@@ -1,0 +1,24 @@
+
+.section form{
+  display: flex;
+  flex-direction: column;
+}
+.div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.div input{
+  height: 35px;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+.button{
+  width: 110px;
+  padding: 17px;
+  align-self:flex-end;
+  background-color: #df6747;
+  color: white;
+  margin: 15px 0;
+}
+.button:hover{color: #49494d;}

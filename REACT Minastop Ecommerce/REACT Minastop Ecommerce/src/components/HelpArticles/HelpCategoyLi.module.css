@@ -1,0 +1,15 @@
+.li{
+  padding: 10px;
+  background-color: #48484d;
+  color: white;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+.li:hover{
+  color: #e3e3cd;
+}
+.active{
+  background-color: white;
+  color: #49494d;
+}

@@ -1,0 +1,23 @@
+.header{
+  width: 100%;
+  height: 50px;
+  
+  padding-left: 30px; padding-right: 20px;
+
+  background-color: #49494d;
+
+  position: fixed;
+  transition: .5s;
+}
+.header *{color: white;}
+.header>div{
+  height: 100%;
+  max-width: 1200px;
+  margin: auto ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header a{
+  text-decoration: none;
+}

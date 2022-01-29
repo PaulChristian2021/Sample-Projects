@@ -1,0 +1,44 @@
+.nav {
+  
+}
+.header {
+  text-align: center;
+}
+
+.div {
+  width: 300px;
+  /* height: 300px; */
+}
+.div img {
+  width: 100%;
+}
+.form,
+.form fieldset {
+  display: flex;
+  justify-content: space-evenly;
+  border: none;
+}
+.form input {
+  width: 50px;
+  text-align: center;
+}
+
+.addToCart {
+  width: 120px;
+}
+.operator,
+.addToCart {
+  background-color: #49494d;
+  color: white;
+  transition: transform .0s;
+}
+.operator:hover,
+.addToCart:hover {
+  background-color: whitesmoke;
+  color: #49494d;
+}
+.operator:active,
+.addToCart:active {
+  transform: scale(1.1);
+  
+}

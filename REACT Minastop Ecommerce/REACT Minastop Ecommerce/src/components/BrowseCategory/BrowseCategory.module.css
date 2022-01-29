@@ -1,0 +1,49 @@
+.categories{
+  padding-top: 2px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.categories ul{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+.categories p{
+  color: #878d92;
+  text-align: center;
+}
+.li{
+  list-style: none; 
+  margin: 0 1px;
+}
+.li:hover a{
+  color: white;
+}
+.li a{
+  text-decoration: none;
+  background-color: #878d92;
+  color: #e3e3cd;
+  padding: 0 5px;
+  
+}
+.maxwidth500px{
+  max-width: 500px;
+  margin: auto;
+}
+
+@media (max-width:430px) {
+  .categories ul{
+    flex-direction: column;
+  }
+}
+@media (min-width:550px) {
+  .categories ul{
+    flex-direction: row;
+  }
+  .categories{
+    
+    flex-direction: row;
+  }
+}

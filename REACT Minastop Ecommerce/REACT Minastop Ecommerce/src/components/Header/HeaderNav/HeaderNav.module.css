@@ -1,0 +1,23 @@
+.nav{
+  display: flex;
+  align-items: center;
+  
+}
+.nav button{
+  margin-left: 10px;
+}
+
+.headerMenu{
+  display: none;
+}
+.cartBtn{
+  margin-right: 10px;
+}
+
+@media (min-width:600px) {
+  .nav .menu{display: none;}  
+  .headerMenu{display: block;}
+  .headerMenu a{margin-left: 5px; padding: 3px;}
+  .headerMenu a:hover{background-color: whitesmoke; color: #49494d;}
+  .backdrop{display: none;}
+}

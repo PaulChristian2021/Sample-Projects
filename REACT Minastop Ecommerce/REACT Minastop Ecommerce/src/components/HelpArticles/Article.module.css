@@ -1,0 +1,17 @@
+.article {
+  margin: 5px;
+  /* height: 50vh; */
+  width: 100%;
+  flex-direction: column;
+}
+.article,
+.backBtn {
+  display: flex;
+  justify-content: space-between;
+}
+.backBtn {
+  width: 100px;
+  padding: 15px 10px;
+  background-color: #49494d;
+  color: white;
+}
