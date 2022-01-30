@@ -1,0 +1,24 @@
+{
+  "name": "minastop-mongodb",
+  "version": "1.0.3",
+  "description": "Backend for Minastop React app.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "react",
+    "backend",
+    "database"
+  ],
+  "author": "Paul Christian",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.8"
+  }
+}
