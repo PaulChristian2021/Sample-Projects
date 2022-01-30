@@ -24,6 +24,12 @@ app.use(express.json())
 const productsRouter = require('./routes/products')
 app.use('/products', productsRouter)
 
+const helpArticlesRouter = require('./routes/helpArticles')
+app.use('/help', helpArticlesRouter)
+
+const usersRouter = require('./routes/users')
+app.use('/users', usersRouter)
+
 app.listen(port, () => {
   console.log("=========" + port + "=========");
 })
