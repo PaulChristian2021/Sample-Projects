@@ -75,3 +75,8 @@ https://introwithsignup.netlify.app/
 
 15. REACT Minastop Ecommerce
 https://minastop.netlify.app/
+
+16. Express MongoDB Minastop Eommerce Backend API
+	https://minastop-mern.herokuapp.com/products (mock products)
+	https://minastop-mern.herokuapp.com/users (mock users)
+	https://minastop-mern.herokuapp.com/help (mock help articles)
