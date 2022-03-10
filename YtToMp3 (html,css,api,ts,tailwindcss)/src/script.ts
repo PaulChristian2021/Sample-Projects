@@ -35,11 +35,7 @@ const downloadDataProxy = new Proxy(downloadData, {
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
-  if (
-    formInput.value.length > 10 &&
-    formInput.value.includes("=") &&
-    formInput.value.includes("&")
-  ) {
+  if (formInput.value.length > 10 && formInput.value.includes("=")) {
     inputUrl = formInput.value;
     if (phase === "find") {
       const videoId: string = getVideoId(inputUrl);
