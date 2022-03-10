@@ -1,0 +1,15 @@
+{
+  "name": "yttomp3",
+  "version": "1.0.0",
+  "description": "Mp3 downloader for Youtube videos.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paul Christian",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23",
+    "typescript": "^4.6.2"
+  }
+}
